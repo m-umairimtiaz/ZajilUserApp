@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bkg4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@string/bold"
+                    android:text="About Us"
+                    android:textColor="@color/green"
+                    android:textSize="24sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    app:civ_border_width="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zajil_logosmall2"/>
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="380dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:iss_auto_cycle="true"
+                    app:iss_delay="0"
+                    app:iss_error_image="@drawable/error"
+                    app:iss_period="1000"
+                    app:iss_selected_dot="@drawable/default_selected_dot"
+                    app:iss_text_align="CENTER"
+                    app:iss_title_background="@drawable/gradient"
+                    app:iss_unselected_dot="@drawable/default_unselected_dot" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@string/light"
+                android:justificationMode="inter_word"
+                android:text="@string/about_clg"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/purple_700">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/curve"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:fontFamily="@string/bold"
+                        android:text="DEPARTMENTS"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/title_size" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#fff"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/black"
+                                    android:clickable="false"
+                                    android:text="Network Operations"
+                                    style="?attr/borderlessButtonStyle"/>
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/grey"/>
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/black"
+                                    android:clickable="false"
+                                    style="?attr/borderlessButtonStyle"
+                                    android:text="Information Technology"
+
+                                    />
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/grey"/>
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/black"
+                                    style="?attr/borderlessButtonStyle"
+                                    android:clickable="false"
+                                    android:text="Electronics and Engineering" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/grey"/>
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/black"
+                                    style="?attr/borderlessButtonStyle"
+                                    android:clickable="false"
+                                    android:text="Service Delivery"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="36dp"
+                        android:fontFamily="@string/bold"
+                        android:text="CONTACT DETAILS"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/title_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:text="Fahad Al-Salam Street, Usama Tower,"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:fontFamily="@string/bold"
+                        android:text="Qibla, Kuwait City"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:fontFamily="@string/bold"
+                        android:text="Kems Zajil Telecom"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:fontFamily="@string/bold"
+                        android:text="Kalaam Group Company"
+                        android:textColor="@color/textColor"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="Po.Box. 45007, Safat"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="Kuwait"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/text_margin"
+                        android:fontFamily="@string/light"
+                        android:text="E-mail: info@zajil.com"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size"
+                        android:layout_marginBottom="@dimen/text_size"/>
+
+
+                    <ImageView
+                        android:id="@+id/map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="270dp"
+                        android:src="@drawable/zajil_map"
+
+                        android:layout_marginBottom="@dimen/text_size"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

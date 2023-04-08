@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Kems-Zajil International Telecom</string>
+    <string name="title_activity_bottom_nav">bottom_nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_elibrary">Elibrary</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/robotobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/robotolight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/robotoregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_clg"><b>"Zajil is a significant provider of information and communications technology (ICT) services in the Middle East and North Africa (MENA) region. For more than 30 years, Zajil has served worldwide enterprises as Kuwait first Internet Service Provider and the regions top connectivity (MPLS) Service Provider. Our principal strength is the worldwide network, which includes 30+ fully owned and controlled POPs across the MENA and European regions, as well as protracted investments in cable infrastructure. "</b></string>
+    <string name="about_clg2"><b>"Zajil's never-ending quest to deliver the most cutting-edge technology and services to its clients in the area has positioned it as a regional leader in cloud services and security services. Our extensive variety of cloud services demonstrates the capacity to fulfil Zajil's aim of being the most relevant and important service provider for its customers."</b></string>
+    <string name="website_name">Zajil International Telecom</string>
+    <string name="hyperlink">Visit our Website\n<a href="https://www.zajil.com/">       www.Zajil.com</a></string>
+
+</resources>
